@@ -48,7 +48,7 @@ class RawDataJob:
                  web_console_url='',
                  web_console_username='',
                  web_console_password='',
-                 kvstore_type="dfs",
+                 kvstore_type="etcd",
                  use_fake_client=False):
         self._job_name = job_name
         self._root_path = root_path
